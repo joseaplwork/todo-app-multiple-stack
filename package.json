@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "workspaces": [
+    "react"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,9 +15,6 @@
   },
   "author": "joseaplwork",
   "license": "ISC",
-  "workspaces": [
-    "react"
-  ],
   "bugs": {
     "url": "https://github.com/joseaplwork/todo-app-multiple-stack/issues"
   },
